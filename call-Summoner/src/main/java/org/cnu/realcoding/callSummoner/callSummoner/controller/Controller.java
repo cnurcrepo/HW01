@@ -16,7 +16,6 @@ public class Controller {
 
     @GetMapping("/Name/{name}")
     public String getLeagueInfoByName(@PathVariable String name) {
-        return summonerService.getLeagueInfoByID(summonerService.getSummonerIDByName(name));
+        return summonerService.getLeagueInfoByID(summonerService.getLeague(name).getID());
     }
-
 }
