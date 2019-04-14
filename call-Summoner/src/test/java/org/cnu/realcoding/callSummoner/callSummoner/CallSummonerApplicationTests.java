@@ -1,4 +1,4 @@
-package chungNam.Univ.project_real_coding;
+package org.cnu.realcoding.callSummoner.callSummoner;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ProjectRealCodingApplicationTests {
+public class CallSummonerApplicationTests {
 
 	@Test
 	public void contextLoads() {
