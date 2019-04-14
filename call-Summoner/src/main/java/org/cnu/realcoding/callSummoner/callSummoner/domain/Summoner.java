@@ -4,18 +4,11 @@ import lombok.Data;
 
 @Data
 public class Summoner {
-
-    private int profileIconID;
+    private String profileIconID;
     private String name;
     private String puuid;
-    private int SummonerLevel;
+    private String SummonerLevel;
     private String accountID;
     private String ID;
     private String revisionDate;
-
-    public String getID(){
-        return ID;
-    }
-
-
 }
